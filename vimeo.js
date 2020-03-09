@@ -1,20 +1,13 @@
-var vid1=new Vimeo.Player($('.one'));
-    var vid2=new Vimeo.Player($('.two'));
-        var vid3=new Vimeo.Player($('.three'))
-	$('.btnonePlay').on('click',function(){
-		vid1.play();
-	})
-	$('.btnonePause').on('click',function(){
-		vid1.pause();
-	})
-	$('.btntwoPlay').on('click',function(){
-		vid2.play();
-	})
-	$('.btntwoPause').on('click',function(){
-        vid2.pause();
-    $('.btntwoPlay').on('click',function(){
-        vid3.play();
-    })
-    $('.btntwoPause').on('click',function(){
-        vid3.pause();
-	})
+$(document).ready(function(){
+	// Add minus icon for collapse element which is open by default
+	$(".collapse.show").each(function(){
+		$(this).prev(".card-header").find(".fa").addClass("fa-minus").removeClass("fa-plus");
+	});
+	
+	// Toggle plus minus icon on show hide of collapse element
+	$(".collapse").on('show.bs.collapse', function(){
+		$(this).prev(".card-header").find(".fa").removeClass("fa-plus").addClass("fa-minus");
+	}).on('hide.bs.collapse', function(){
+		$(this).prev(".card-header").find(".fa").removeClass("fa-minus").addClass("fa-plus");
+	});
+});
