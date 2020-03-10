@@ -4797,15 +4797,7 @@ input[type="button"].btn-block {
   -webkit-filter: brightness(100%);
 }
 
-#headingOne {
-  display: block;
-  background: #c8c8c8;
-  height: 100%;
-  text-align: center;
-}
-#headingTwo {
-  background: pink;
-}
+
 
 .card-header:hover {
   -webkit-filter: brightness(70%);
