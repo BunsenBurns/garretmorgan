@@ -6,13 +6,12 @@
 
 .action-button
 {
-	position: relative;
-	padding: 10px 40px;
+	padding: 1rem 4rem;
   float: left;
-  width: 30rem;
+  width: 25rem;
 	border-radius: 10px 10px 0 0;
   font-family:'Roboto Condensed', sans-serif;
-	font-size: 25px;
+	font-size: 1.5rem;
   color: #FFF;
   text-align: center;
 	text-decoration: none;	
