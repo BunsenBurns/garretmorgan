@@ -61,6 +61,10 @@
     transition: color 0.5s ease-in-out;
     font-family: 'Concert One', cursive;
 }
+#navlinkactive {
+  color: white;
+  font-family: 'Concert One', cursive;
+}
 
 .iconLg {
     font-size: 2.5rem;
