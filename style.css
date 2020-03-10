@@ -1,3 +1,41 @@
+.animate
+{
+	transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+}
+
+.action-button
+{
+	position: relative;
+	padding: 10px 40px;
+  float: left;
+  width: 30rem;
+	border-radius: 10px 10px 0 0;
+  font-family:'Roboto Condensed', sans-serif;
+	font-size: 25px;
+  color: #FFF;
+  text-align: center;
+	text-decoration: none;	
+}
+
+.blue
+{
+	background-color: #EF6F6C;
+	border-bottom: 5px solid #efb16c;
+
+}
+
+.action-button:active
+{
+	transform: translate(0px,5px);
+  -webkit-transform: translate(0px,5px);
+	border-bottom: 1px solid;
+}
+.action-button:hover
+{
+  color: white;
+  background-color: rgb(207, 85, 83);
+}
 #nounderline {
   text-decoration: none !important
 }
