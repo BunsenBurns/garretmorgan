@@ -1,3 +1,4 @@
+
 .animate
 {
 	transition: all 0.1s;
@@ -51,7 +52,13 @@
      background-position-x: 200px;
 }
 
-
+.footerButton {
+  color:rgb(96, 76, 160);
+  transition: color 0.25s ease-in-out;
+}
+.footerButton:hover {
+  color:rgb(0, 0, 0);
+}
 #headingOne {
     display: block;
     background-color: #4B3F72;
