@@ -5,6 +5,12 @@
     margin-right: 0.5rem;
 }
 
+.carvingJumbo {
+    color: white;
+
+    text-shadow: #424242 1px 1px 0;
+
+}
 #headingOne {
     display: block;
     background-color: #4B3F72;
