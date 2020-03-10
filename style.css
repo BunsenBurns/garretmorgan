@@ -14,40 +14,7 @@
      background-position-x: 200px;
 }
 
-@media only screen and (max-width: 1300px) {
-    .jumbotron {
-        background-image: url(BG3.jpg); 
-        background-color: rgb(126, 175, 207);
-        background-repeat:no-repeat; 
-        background-size: cover;
-        background-position-y: -175px;
-        background-position-x: 150px;
 
-  }
-}
-
-@media only screen and (max-width: 1000px) {
-    .jumbotron {
-        background-image: url(BG3.jpg); 
-        background-color: rgb(126, 175, 207);
-        background-repeat:no-repeat; 
-        background-size: cover;
-        background-position-y: -125px;
-        background-position-x: 150px;
-
-  }
-}
-@media only screen and (max-width: 6000px) {
-    .jumbotron {
-        background-image: url(BG3.jpg); 
-        background-color: rgb(126, 175, 207);
-        background-repeat:no-repeat; 
-        background-size: cover;
-        background-position-y: -50px;
-        background-position-x: 150px;
-
-  }
-}
 #headingOne {
     display: block;
     background-color: #4B3F72;
