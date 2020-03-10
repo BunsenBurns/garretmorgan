@@ -3123,6 +3123,7 @@ fieldset:disabled a.btn {
 .btn-link:focus, .btn-link.focus {
   text-decoration: underline;
   box-shadow: none;
+  color: white;
 }
 
 
@@ -3532,6 +3533,10 @@ input[type="button"].btn-block {
   flex-direction: column;
   -ms-flex-align: start;
   align-items: flex-start;
+
+
+
+
   -ms-flex-pack: center;
   justify-content: center;
 }
