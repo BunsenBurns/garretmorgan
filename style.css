@@ -36,6 +36,16 @@
   #headingThree:hover {
     background: #723f66;
   }
+  #headingFour {
+    display: block;
+    background-color: #30343F;
+    height: 100%;
+    text-align: center;
+    transition: background-color 0.5s ease-in-out;
+  }
+  #headingFour:hover {
+    background: #51586a;
+  }
 
 #navlink {
     color: #acacac;
