@@ -7,8 +7,8 @@
 
 .carvingJumbo {
     color: white;
-
-    text-shadow: #424242 1px 1px 0;
+    font-size: 4rem;
+    text-shadow: #424242 0.07rem 0.07rem 0;
 
 }
 #headingOne {
