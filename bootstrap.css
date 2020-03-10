@@ -4794,7 +4794,28 @@ input[type="button"].btn-block {
   margin-bottom: 0;
   background-color: rgba(0, 0, 0, 0.03);
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  -webkit-filter: brightness(100%);
 }
+
+#headingOne {
+  display: block;
+  background: #c8c8c8;
+  height: 100%;
+  text-align: center;
+}
+#headingTwo {
+  background: pink;
+}
+
+.card-header:hover {
+  -webkit-filter: brightness(70%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
 
 .card-header:first-child {
   border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;

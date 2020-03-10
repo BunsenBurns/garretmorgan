@@ -4,6 +4,38 @@
 .accordion .fa{
     margin-right: 0.5rem;
 }
+
+#headingOne {
+    display: block;
+    background-color: #4B3F72;
+    height: 100%;
+    text-align: center;
+    transition: background-color 0.5s ease-in-out;
+  }
+  #headingOne:hover {
+    background: #723f66;
+  }
+  #headingTwo {
+    display: block;
+    background-color: #EF6F6C;
+    height: 100%;
+    text-align: center;
+    transition: background-color 0.5s ease-in-out;
+  }
+  #headingTwo:hover {
+    background: #efb16c;
+  }
+  #headingThree {
+    display: block;
+    background-color: #4B3F72;
+    height: 100%;
+    text-align: center;
+    transition: background-color 0.5s ease-in-out;
+  }
+  #headingThree:hover {
+    background: #723f66;
+  }
+
 #navlink {
     color: #acacac;
     transition: color 0.5s ease-in-out;
