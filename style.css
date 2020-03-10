@@ -96,11 +96,11 @@
 #navlink {
     color: #acacac;
     transition: color 0.5s ease-in-out;
-    font-family: 'Concert One', cursive;
+    font-family: 'Cairo', sans-serif;
 }
 #navlinkactive {
   color: white;
-  font-family: 'Concert One', cursive;
+  font-family: 'Cairo', sans-serif;
 }
 
 .iconLg {
