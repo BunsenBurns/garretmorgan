@@ -30,11 +30,14 @@ body {
     right: 0;
     bottom: 0;
     left: 0;
+    padding-top:1rem;
     height: 11rem;
-    background-color: #efefef;
+    background-color: #30343F;
     text-align: center;
   }
-
+  #main-footer p {
+    color: white;
+  }
 /* Trick */
 body{ 
   display:flex; 
@@ -100,11 +103,11 @@ footer{
 }
 
 .footerButton {
-  color:rgb(96, 76, 160);
+  color:white;
   transition: color 0.25s ease-in-out;
 }
 .footerButton:hover {
-  color:rgb(0, 0, 0);
+  color:rgb(238, 104, 155);
 }
 #headingOne {
     display: block;
